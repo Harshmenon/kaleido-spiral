@@ -1,0 +1,22 @@
+import turtle
+import random
+h = turtle.Pen()
+
+turtle.bgcolor('black')
+h.speed(0)
+h.pensize(2)
+
+colours = ['red','green','orange','purple','magenta','hotpink','yellow']
+
+r = 10
+
+while True:
+
+    c = random.choice(colours)
+    h.color(c)
+    h.circle(r)
+    r = r+5
+    h.left(5)
+    h.up()
+    h.forward(5)
+    h.down
